@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha|Philosopher');
+
+body{
+	font-family: 'Philosopher', sans-serif;
+	background-color: rgb(55, 105, 158, 0.8);
+	display: flex;
+}
+
+.logo {
+	position: fixed;
+	z-index: 10;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.map {
+	width: 1080px;
+	height: 1550px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 4;
+	background-image: url(images/map/map.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	box-shadow: 0 10px 40px #757575;
+	border: 4px solid #757575;
+}
+
+.pointer li {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px solid black;
+	border-radius:50% 50% 50% 0;
+	transform: rotate(-45deg);
+	background-color: goldenrod;
+	z-index: 5;
+}
+
+.pointer p {
+	transform: rotate(45deg);
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+.pointer a {
+	color: #ffffdc;
+}
+
+.pointer li:hover a {
+	color: #49402d;
+	
+}
+
+.pointer li:hover {
+	background-color: rgb(226, 172, 61, 0.8);
+}
+
+.about li {
+	position: fixed;
+	bottom: 50%;
+	left: 50%;
+	width: 1400px;
+	height: 703px;
+	margin-left: -735px;
+    margin-bottom: -350px;
+	border-radius: 0;
+	opacity: 0;
+	bottom: -700;
+	transform: scale(0.2);
+	transition: transform 1s ease, opacity 1s ease;
+	z-index: -1;
+}
+
+
+.about img {
+	box-shadow: 4px 4px 10px 2px black;
+	padding: 3px;
+	margin-top: 10px;
+	height: 600px;
+}
+
+.about a {
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ab {
+	background-color: rgb(104, 151, 155);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid rgb(104, 151, 155);
+	color: white;
+	
+}
+
+.k {
+	padding: 10px;
+}
+
+#pip:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link1 {
+	left: 433px;
+	top: 1005px;
+}
+
+#link1_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link2 {
+	left: 206px;
+	top: 590px;
+}
+
+#link2_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link3 {
+	left: 414px;
+	top: 696px;
+}
+
+#link3_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link4 {
+	left: 310px;
+	top: 660px;
+}
+
+#link4_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link5 {
+	left: 280px;
+	top: 56px;
+}
+
+#link5_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link6 {
+	left: 395px;
+	top: 88px;
+}
+
+#link6_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link7 {
+	left: 14px;
+	top: 100px;
+}
+
+#link7_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link8 {
+	left: 860px;
+	top: 733px;
+}
+
+#link8_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link9 {
+	left: 100px;
+	top: 111px;
+}
+
+#link9_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link10 {
+	left: 860px;
+	top: 590px;
+}
+
+#link10_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link11 {
+	left: 663px;
+	top: 781px;
+}
+
+#link11_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+#link12 {
+	left: 911px;
+	top: 513px;
+}
+
+#link12_about:target {
+	opacity: 1;
+	bottom: 50%;
+	transform: scale(1);
+	z-index: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
